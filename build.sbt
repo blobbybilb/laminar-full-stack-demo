@@ -44,6 +44,6 @@ buildClient := {
 // -- Aliases
 
 // Run the frontend development loop (also run vite: `cd frontend; npm run dev`)
-addCommandAlias("cup", ";~client/fastLinkJS")
+addCommandAlias("dev", ";~client/fastLinkJS")
 // Build frontend for production
-addCommandAlias("cbuild", ";buildClient")
+addCommandAlias("build", ";buildClient")
